@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f2f7f8;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+/* nav bar */
+.headone{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 13%;
+    position: fixed;
+    background-color: #ffffff;
+    /* text-align: center; */
+}
+
+.headone h1{
+    font-size: 40px;
+}
+
+.navone a{
+padding-left: 20px;
+text-decoration: none;
+color: #415364;
+font-size: 20px;
+/* align-content: center; */
+}
+
+.navtwo button{
+padding: 15px;
+font-size: 15px;
+border-radius: 10px;
+border: 1px solid #0c1825;
+}
+.signin{
+background-color: #ffffff;
+margin-right: 10px;
+
+}
+.create{
+background-color: #122130;
+color: #ffffff;
+}
+
+/* section one */
+.sectone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 250px 0 200px 0;
+    /* max-height: 100%; */
+    align-content: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.better{
+    margin: auto;
+}
+.better h1{
+    font-size: 50px;
+}
+.better .goals{
+    padding-top: 7px;
+    font-size: 20px;
+    color: #415364;
+    line-height: 30px;
+    font-weight: 50px;
+}
+
+.betterimg img{
+    width: 40vw;
+    height: 70vh;
+    border: none;
+    border-radius: 10px;
+}
+.betterbtn{
+    margin-top: 20px;
+}
+.betterbtn button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* section two */
+.secttwo {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+    margin: auto;
+    justify-content: space-around;
+    align-content: center;
+    width: 75%;
+    height: 100%;
+    
+}
+.secttwo img{
+    padding: 35px;
+    border-radius: 25px;
+    width: 10%;
+    height: 10%;
+   border: 1px solid #ffffff;
+   background-color: #ffffff;
+   margin: auto;
+
+}
+.secttwodiv{
+    width: 85%;
+    margin: auto;
+    height: 40%;
+    /* border: 1px solid; */
+    padding: 100px 0;
+}
+.secp{
+    padding: 20px 0;
+    color: #3d4f60;
+    line-height: 20px;
+    font-size: 17px;
+}
+.secttwodiv a{
+    text-decoration: none;
+    color: black;
+}
+.secttwodiv h2 h4{
+    color: #122231;
+}
+
+/* section three */
+.sectthree{
+    /* display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 100vh;   */
+    margin: 100px;
+}
+ .save{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 80%;
+    align-content: center;
+    margin:auto;
+}
+.automate{
+    border: 1px solid rgb(41, 105, 161);
+    border-radius: 7px;
+    /* padding: 20px; */
+    margin: 10px;
+    /* width: 100%; */
+    /* margin-left: 200px; */
+
+}
+.manual{
+    border: 1px solid rgb(41, 105, 161);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 7px;
+
+}
+.save h1{
+    font-size: 40px;
+}
+.save a{
+    text-decoration: none;
+    /* margin-top: 30px; */
+
+}
+.save p{
+    font-size: 20px;
+    color:#415364;
+    padding-bottom: 100px;
+}
+
+/* section four */
+.sectfour{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+}
+.sectfour h1{
+    font-size: 50px;
+}
+
+.fourp{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #415364;
+}
+.percent{
+    width: 80%;
+    height: 50vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #7d4ae5;
+    margin: auto;
+    padding: 60px;
+    text-align:justify;
+}
+.percent h1{
+    color: #ffffff;
+}
+.percent p{
+    color: #e3b8ef;
+    padding-bottom: 100px;
+
+}
+.percent a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* section five */
+.sectfive{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    background-color: #f2f7f8;
+ 
+}
+
+/* section six */
+.sectsix{
+    display: flex;
+    /* gap: 20px; */
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.images{
+    gap: 20px;
+    display: flex;
+}
+.images img{
+    width: 10%;
+    border-radius: 30px;
+
+}
+
+
+/* footer */
+.feature p{
+    display: inline;
+    justify-content: space-between;
+    
+}
+.foottwo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    display: grid;
+}
